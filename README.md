@@ -1,7 +1,12 @@
 # Making Champion Task : 2
 
-Offset is set to default 20.
-Records are returned alphabetically.
+Offset is default set to 20.
+## Features
+1. Dynamic Search Functionality.
+2. Dynamic Filtering on the basis of Dates.
+3. Ability to fetch bulk records.
+4. Records are retuned alphabetically.
+5. Components are designed by following the Reusability approach.
 
 ## Concepts used in order to get 70,000 records :
 
