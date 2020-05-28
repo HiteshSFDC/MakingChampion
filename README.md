@@ -11,6 +11,7 @@ Offset is default set to 20.
 ## Concepts used in order to get 70,000 records :
 
 As we know that we can get a max of 2000 records in a single query(here for the demo purpose I'm fetching 20 records).So what I'm doing is getting the Id of the last row returned i.e 2000th record( 20th in our case) and then when the used click on 'Increase row Offset button' the next 2000 records are being fetched if exists otherwise a toast poput appears saying "No more records in the org".
+Reffered [DANIEL ZEIDLER's](https://sfdc.danielzeidler.com/2019/08/18/building-querymore-functionality-in-apex-a-soql-offset-alternative/) blog post for this.
 
 ## Scenarios Covered
 ### 1. If FILTER is applied
