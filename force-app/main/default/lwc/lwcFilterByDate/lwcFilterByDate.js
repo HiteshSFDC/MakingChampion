@@ -9,17 +9,13 @@ export default class LwcFilterByDate extends LightningElement {
     handleFromDateChange(event) {
         this.fromDate = event.target.value;
         console.log('handlefromDateChange<<<<<' + this.fromDate);
-        // this.fireDateChangeEvent();
     }
     handleToDateChange(event) {
         this.toDate = event.target.value;
-        console.log('handleToDateChange<<<<<' + this.toDate);
-        //  this.fireDateChangeEvent();
     }
     handleClearFilter() {
         this.toDate = '';
         this.fromDate = '';
-        console.log("handleClearFilter<<<<<<<<<<<<<<<<");
         this.handleApplyFilter();
     }
     handleApplyFilter() {
