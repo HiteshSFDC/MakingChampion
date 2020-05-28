@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Filter by Date" icon-name="custom:custom34">
+        <div class="slds-p-left_medium slds-p-right_medium">
+            <lightning-input type="date" name="fromDate" label="From" value={fromDate} placeholder="Starting Date"
+                onchange={handleFromDateChange}></lightning-input>
+        </div>
+        <div class="slds-p-left_medium slds-p-right_medium">
+            <lightning-input type="date" name="toDate" label="To" value={toDate} placeholder="Ending Date"
+                onchange={handleToDateChange}></lightning-input>
+        </div>
+        <div class="slds-p-top_medium slds-p-left_medium">
+            <lightning-button variant="brand-outline" label="Apply Filters" title="Primary action with lighter look"
+                onclick={handleApplyFilter} class="slds-m-left_x-small"></lightning-button>
+
+            <lightning-button variant="brand-outline" label="Clear Filters" title="Primary action with lighter look"
+                onclick={handleClearFilter} class="slds-m-left_x-small"></lightning-button>
+        </div>
+    </lightning-card>
+</template>

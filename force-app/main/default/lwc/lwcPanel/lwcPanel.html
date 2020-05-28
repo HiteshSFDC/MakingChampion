@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Records" icon-name="custom:custom34">
+        <div style="height: 400px;">
+            <lightning-datatable key-field="id" data={data} show-row-number-column row-number-offset={rowOffset}
+                hide-checkbox-column columns={columns}>
+            </lightning-datatable>
+        </div>
+        <div class="slds-m-around--medium">
+            <lightning-button label="Increase row offset" onclick={increaseRowOffset}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>
