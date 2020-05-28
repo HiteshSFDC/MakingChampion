@@ -8,7 +8,7 @@ Offset is default set to 20.
 4. Records are retuned alphabetically.
 5. Components are designed by following the Reusability approach.
 
-Read [this](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_offset.htm) before going further.You wil understand better.
+Read [this](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_offset.htm) before going further. You will understand better:)
 
 ## Concepts used in order to get 70,000 records :
 
